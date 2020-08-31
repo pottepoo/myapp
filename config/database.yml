@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: myapp
+  pool: 5
+  
+  
+production:
+  adapter: postgresql
+  prepared_statements: false
+  advisory_locks: false
+  
+  
+production:
+  adapter: postgresql
+  statement_limit: 200
